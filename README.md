@@ -43,7 +43,7 @@
 
 ### Description
 
-* Creates a histogram as a png from a file using the specified column in a tab delimited file.
+* Creates a histogram as a png from a file using in a tab delimited file.
 
 ### Known Issues
 
