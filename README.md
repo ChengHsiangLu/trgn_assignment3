@@ -43,7 +43,7 @@
 
 ### Description
 
-* Creates a histogram as a png from a file using in a tab delimited file.
+* Creates a histogram as a png(ex:plot.png) from a file(ex:mini.gtf) using in a tab delimited file.
 
 ### Known Issues
 
