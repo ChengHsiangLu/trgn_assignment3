@@ -3,8 +3,9 @@
 
 # In[ ]:
 
-
 import csv
+import sys
+import argparse
 from matplotlib import pyplot as plt
 column=[]
 with open("mini.gtf") as file:
@@ -17,5 +18,5 @@ fig, ax=plt.subplots(figsize=[50,8])
 ax.hist(column, bins=20)
 plt.show()
 # print (column)
-plt.savefig('plot.png')
+plt.savefig('plot.png') 
 
