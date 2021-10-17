@@ -4,7 +4,7 @@
 
 ### Usage
 
-* python3 extract_phonenum.py mytextfile.txt
+* ```python3 extract_phonenum.py mytextfile.txt```
 
 ### Description
 
