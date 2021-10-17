@@ -4,7 +4,7 @@
 
 ### Usage
 
-* ```python3 extract_phonenum.py mytextfile.txt```
+ ```python3 extract_phonenum.py mytextfile.txt```
 
 ### Description
 
@@ -19,14 +19,14 @@
 
 ### Usage
 
-* python3 new_ensg2hugo.py -f2 Homo_sapiens.GRCh37.75.gtf expres.anal.csv
+ ```python3 new_ensg2hugo.py -f2 Homo_sapiens.GRCh37.75.gtf expres.anal.csv```
 
 ### Description
 
-1. "wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz".
-2. "gunzip Homo_sapiens.GRCh37.75.gtf.gz"
+1. ```wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz```
+2. ```gunzip Homo_sapiens.GRCh37.75.gtf.gz```
 3. read the file of Homo_sapiens.GRCh37.75.gtf and create a dictionary of "gene_id" and "gene_name" by using regex.
-4. "wget https://raw.githubusercontent.com/davcraig75/unit/master/expres.anal.csv"
+4. ```wget https://raw.githubusercontent.com/davcraig75/unit/master/expres.anal.csv```
 5. use the dixtionary to change the second column of "expres.anal.csv" file into "gene_name" by using regex.(ex:gene_id "ENSG00000223972"---> gene_name "DDX11L1")
 6. Last, the new file of final_Hugo.csv will be created.
 
@@ -39,7 +39,7 @@
 
 ### Usage
 
-* python3 HIS.py -f4 expres.anal.csv
+ ```python3 HIS.py -f4 expres.anal.csv```
 
 ### Description
 
