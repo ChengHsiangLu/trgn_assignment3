@@ -28,7 +28,7 @@
 3. read the file of Homo_sapiens.GRCh37.75.gtf and create a dictionary of "gene_id" and "gene_name" by using regex.
 4. ```wget https://raw.githubusercontent.com/davcraig75/unit/master/expres.anal.csv```
 5. use the dixtionary to change the second column of "expres.anal.csv" file into "gene_name" by using regex.(ex:gene_id "ENSG00000223972"---> gene_name "DDX11L1")
-6. Last, the new file of final_Hugo.csv will be created.
+6. Last, the new file of "final_Hugo.csv" will be created.
 
 ### Known Issues
 
